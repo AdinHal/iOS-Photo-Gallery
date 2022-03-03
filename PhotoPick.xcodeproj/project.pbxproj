@@ -7,16 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		040031F427C42E07003E8DAF /* CollectionViewCellTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040031F327C42E07003E8DAF /* CollectionViewCellTwo.swift */; };
+		040031F627C436CB003E8DAF /* CollectionViewCellThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040031F527C436CB003E8DAF /* CollectionViewCellThree.swift */; };
+		040031F827C82919003E8DAF /* CollectionViewCellFour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040031F727C82919003E8DAF /* CollectionViewCellFour.swift */; };
 		047290AD27B575DB004AC76B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047290AC27B575DB004AC76B /* AppDelegate.swift */; };
 		047290AF27B575DB004AC76B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047290AE27B575DB004AC76B /* SceneDelegate.swift */; };
 		047290B127B575DB004AC76B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047290B027B575DB004AC76B /* ViewController.swift */; };
 		047290B427B575DB004AC76B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 047290B227B575DB004AC76B /* Main.storyboard */; };
 		047290B627B575DE004AC76B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 047290B527B575DE004AC76B /* Assets.xcassets */; };
 		047290B927B575DE004AC76B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 047290B727B575DE004AC76B /* LaunchScreen.storyboard */; };
+		047290C327B69FF3004AC76B /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047290C227B69FF3004AC76B /* CollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		047290A927B575DB004AC76B /* photo-browser-project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "photo-browser-project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		040031F327C42E07003E8DAF /* CollectionViewCellTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCellTwo.swift; sourceTree = "<group>"; };
+		040031F527C436CB003E8DAF /* CollectionViewCellThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCellThree.swift; sourceTree = "<group>"; };
+		040031F727C82919003E8DAF /* CollectionViewCellFour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCellFour.swift; sourceTree = "<group>"; };
+		047290A927B575DB004AC76B /* PhotoPick.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoPick.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		047290AC27B575DB004AC76B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		047290AE27B575DB004AC76B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		047290B027B575DB004AC76B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +31,7 @@
 		047290B527B575DE004AC76B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		047290B827B575DE004AC76B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		047290BA27B575DE004AC76B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		047290C227B69FF3004AC76B /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +56,7 @@
 		047290AA27B575DB004AC76B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				047290A927B575DB004AC76B /* photo-browser-project.app */,
+				047290A927B575DB004AC76B /* PhotoPick.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -59,10 +67,14 @@
 				047290AC27B575DB004AC76B /* AppDelegate.swift */,
 				047290AE27B575DB004AC76B /* SceneDelegate.swift */,
 				047290B027B575DB004AC76B /* ViewController.swift */,
+				047290C227B69FF3004AC76B /* CollectionViewCell.swift */,
 				047290B227B575DB004AC76B /* Main.storyboard */,
+				040031F527C436CB003E8DAF /* CollectionViewCellThree.swift */,
 				047290B527B575DE004AC76B /* Assets.xcassets */,
 				047290B727B575DE004AC76B /* LaunchScreen.storyboard */,
 				047290BA27B575DE004AC76B /* Info.plist */,
+				040031F327C42E07003E8DAF /* CollectionViewCellTwo.swift */,
+				040031F727C82919003E8DAF /* CollectionViewCellFour.swift */,
 			);
 			path = "photo-browser-project";
 			sourceTree = "<group>";
@@ -70,9 +82,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		047290A827B575DB004AC76B /* photo-browser-project */ = {
+		047290A827B575DB004AC76B /* PhotoPick */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 047290BD27B575DE004AC76B /* Build configuration list for PBXNativeTarget "photo-browser-project" */;
+			buildConfigurationList = 047290BD27B575DE004AC76B /* Build configuration list for PBXNativeTarget "PhotoPick" */;
 			buildPhases = (
 				047290A527B575DB004AC76B /* Sources */,
 				047290A627B575DB004AC76B /* Frameworks */,
@@ -82,9 +94,9 @@
 			);
 			dependencies = (
 			);
-			name = "photo-browser-project";
+			name = PhotoPick;
 			productName = "photo-browser-project";
-			productReference = 047290A927B575DB004AC76B /* photo-browser-project.app */;
+			productReference = 047290A927B575DB004AC76B /* PhotoPick.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +114,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 047290A427B575DB004AC76B /* Build configuration list for PBXProject "photo-browser-project" */;
+			buildConfigurationList = 047290A427B575DB004AC76B /* Build configuration list for PBXProject "PhotoPick" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +127,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				047290A827B575DB004AC76B /* photo-browser-project */,
+				047290A827B575DB004AC76B /* PhotoPick */,
 			);
 		};
 /* End PBXProject section */
@@ -139,7 +151,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				047290B127B575DB004AC76B /* ViewController.swift in Sources */,
+				040031F627C436CB003E8DAF /* CollectionViewCellThree.swift in Sources */,
 				047290AD27B575DB004AC76B /* AppDelegate.swift in Sources */,
+				040031F427C42E07003E8DAF /* CollectionViewCellTwo.swift in Sources */,
+				047290C327B69FF3004AC76B /* CollectionViewCell.swift in Sources */,
+				040031F827C82919003E8DAF /* CollectionViewCellFour.swift in Sources */,
 				047290AF27B575DB004AC76B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -291,6 +307,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "photo-browser-project/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = PhotoPick;
+				INFOPLIST_KEY_NSCameraUsageDescription = "$(PRODUCT_NAME) uses Cameras";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "$(PRODUCT_NAME) uses Photos";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -305,7 +324,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -318,6 +337,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "photo-browser-project/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = PhotoPick;
+				INFOPLIST_KEY_NSCameraUsageDescription = "$(PRODUCT_NAME) uses Cameras";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "$(PRODUCT_NAME) uses Photos";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -332,14 +354,14 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		047290A427B575DB004AC76B /* Build configuration list for PBXProject "photo-browser-project" */ = {
+		047290A427B575DB004AC76B /* Build configuration list for PBXProject "PhotoPick" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				047290BB27B575DE004AC76B /* Debug */,
@@ -348,7 +370,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		047290BD27B575DE004AC76B /* Build configuration list for PBXNativeTarget "photo-browser-project" */ = {
+		047290BD27B575DE004AC76B /* Build configuration list for PBXNativeTarget "PhotoPick" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				047290BE27B575DE004AC76B /* Debug */,
